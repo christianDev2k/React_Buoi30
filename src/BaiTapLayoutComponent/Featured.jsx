@@ -3,7 +3,7 @@ import React from 'react';
 const FeatureItem = ({ icon, title, text }) => (
     <div className='card border-0 bg-light px-5 pb-5 mb-5 text-center rounded-2'>
         <div className='icon-wrapper bg-primary text-white rounded-3 fs-2 d-flex align-items-center justify-content-center mx-auto'>
-            <i class={icon}></i>
+            <i className={icon}></i>
         </div>
         <h1 className='fs-4 fw-bold mb-2'>{title}</h1>
         <p className='mb-0'>{text}</p>
